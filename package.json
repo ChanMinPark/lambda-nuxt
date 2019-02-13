@@ -1,0 +1,41 @@
+{
+  "name": "lambda-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js project with Lambda",
+  "author": "ChanMin Park <walkinpcm@gmail.com>",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8080"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "aws-serverless-express": "3.3.5",
+    "axios": "0.16.2",
+    "cross-env": "5.2.0",
+    "express": "4.16.4",
+    "nuxt": "2.4.3",
+    "source-map-support": "0.4.18"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
+  }
+}
