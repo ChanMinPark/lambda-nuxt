@@ -114,11 +114,27 @@
       </div>
     </section>
 
+    <!-- HTTP REQUEST TEST -->
+    <section id="sec-4">
+      <div class="container">
+        <h1>HTTP Request TEST</h1>
+        <h2>{{ httpResponse }}</h2>
+      </div>
+    </section>
+
   </section>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
+  async asyncData () {
+    let {data} = await axios.get('https://e4nb9nqxpi.execute-api.ap-northeast-2.amazonaws.com/prod')
+    return {
+      httpResponse: data
+    }
+  },
   data () {
     return {
       text: 'Say, Hola!'
@@ -337,6 +353,18 @@ export default {
           }
         }
       }
+    }
+  }
+
+  #sec-4 {
+    padding: 150px 0;
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 50px;
     }
   }
 }
