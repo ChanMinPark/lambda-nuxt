@@ -9,6 +9,13 @@
       </div>
     </section>
 
+    <section id="sec-1-1">
+      <div class="text-center p-5">
+        <!-- <h1>Server: Lambda</h1> -->
+        <h1>Server: S3</h1>
+      </div>
+    </section>
+
     <!-- Nuxt.js Introduction -->
     <section id="sec-2">
       <div class="container">
@@ -173,6 +180,11 @@ export default {
 
       }
     }
+  }
+
+  #sec-1-1 {
+    background-color: #232f3e;
+    color: #fff;
   }
 
   #sec-2 {
