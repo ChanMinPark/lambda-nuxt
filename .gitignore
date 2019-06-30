@@ -12,3 +12,6 @@ dist
 
 # Backpack build
 build
+
+lambda-nuxt.zip
+.DS_Store
