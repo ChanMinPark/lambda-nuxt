@@ -4,7 +4,7 @@
     <section id="sec-1">
       <div class="container" style="position: relative; height: 100%;">
         <div class="content-box">
-          <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/lambda-nuxt-thumbnail.jpg" alt="Nuxt.js with AWS Serverless">
+          <img src="https://resource.walkinpcm.com/lambda-nuxt/images/lambda-nuxt-thumbnail.jpg" alt="Nuxt.js with AWS Serverless">
         </div>
       </div>
     </section>
@@ -23,7 +23,7 @@
           <ul class="list-unstyled row">
             <li class="col-sm-5">
               <div class="logo-box">
-                <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/nuxt-logo.png" alt="Nuxt.js">
+                <img src="https://resource.walkinpcm.com/lambda-nuxt/images/nuxt-logo.png" alt="Nuxt.js">
               </div>
             </li>
             <li class="col-sm-7">
@@ -53,7 +53,7 @@
           <ul class="list-unstyled row">
             <li class="col-sm-5">
               <div class="logo-box">
-                <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/aws-severless-logo.png" alt="AWS Serverless">
+                <img src="https://resource.walkinpcm.com/lambda-nuxt/images/aws-severless-logo.png" alt="AWS Serverless">
               </div>
             </li>
             <li class="col-sm-7">
@@ -74,7 +74,7 @@
               <li class="col-12 col-sm-6 col-md-3">
                 <div class="service-card">
                   <div class="service-card__logo">
-                    <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/serverless-lambda.svg" alt="Lambda">
+                    <img src="https://resource.walkinpcm.com/lambda-nuxt/images/serverless-lambda.svg" alt="Lambda">
                   </div>
                   <div class="service-card__name">
                     Lambda
@@ -84,7 +84,7 @@
               <li class="col-12 col-sm-6 col-md-3">
                 <div class="service-card">
                   <div class="service-card__logo">
-                    <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/serverless-apigw.svg" alt="API Gateway">
+                    <img src="https://resource.walkinpcm.com/lambda-nuxt/images/serverless-apigw.svg" alt="API Gateway">
                   </div>
                   <div class="service-card__name">
                     API Gateway
@@ -94,7 +94,7 @@
               <li class="col-12 col-sm-6 col-md-3">
                 <div class="service-card">
                   <div class="service-card__logo">
-                    <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/serverless-cf.svg" alt="CloudFront">
+                    <img src="https://resource.walkinpcm.com/lambda-nuxt/images/serverless-cf.svg" alt="CloudFront">
                   </div>
                   <div class="service-card__name">
                     CloudFront
@@ -104,7 +104,7 @@
               <li class="col-12 col-sm-6 col-md-3">
                 <div class="service-card">
                   <div class="service-card__logo">
-                    <img src="https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/serverless-route53.svg" alt="Route53">
+                    <img src="https://resource.walkinpcm.com/lambda-nuxt/images/serverless-route53.svg" alt="Route53">
                   </div>
                   <div class="service-card__name">
                     Route53
@@ -158,7 +158,7 @@ export default {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url('https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/houses-1622066_1920.jpg');
+    background-image: url('https://resource.walkinpcm.com/lambda-nuxt/images/houses-1622066_1920.jpg');
 
     .content-box {
       position: absolute;

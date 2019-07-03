@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project with AWS Lambda' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/images/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://resource.walkinpcm.com/lambda-nuxt/images/favicon.ico' },
       { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css', integrity: 'sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS', crossorigin: 'anonymous' }
     ]
   },
@@ -24,7 +24,7 @@ module.exports = {
     /*
     ** Use CDN
     */
-    publicPath: 'https://s3.ap-northeast-2.amazonaws.com/walkinpcm-web-public-resources/lambda-nuxt/nuxt_core',
+    publicPath: 'https://resource.walkinpcm.com/lambda-nuxt/nuxt_core',
 
     /*
     ** Run ESLINT on save
