@@ -5,6 +5,7 @@
 > 주의: 본 프로젝트는 아직 미완성입니다.  
 
 ## 추가 작업 요소
+- nuxt를 포함한 dependency 버전 업그레이드(nuxt 최신 버전에 맞추기)  
 - service logic example 구현. (axios로 API 요청 수행)  
 - store 연동  
 - CI/CD 구성  
